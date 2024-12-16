@@ -3,6 +3,7 @@ import "./App.css";
 import ProjectList from "./components/ProjectList/ProjectList";
 import Pokeball from "./components/Pokeball/Pokeball";
 import { Suspense } from "react";
+import Hexagon from "./components/Hexagon/Hexagon";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ProjectList />} />
             <Route path="/pokeball" element={<Pokeball />} />
+            <Route path="/hexagon" element={<Hexagon />} />
           </Routes>
         </Router>
       </Suspense>

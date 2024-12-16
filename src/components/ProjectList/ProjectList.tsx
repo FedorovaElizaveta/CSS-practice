@@ -9,6 +9,11 @@ const ProjectList = () => {
       name: "Pokeball",
       path: "/pokeball",
     },
+    {
+      id: 2,
+      name: "Hexagon",
+      path: "/hexagon",
+    },
   ];
 
   return (
